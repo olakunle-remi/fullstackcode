@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout</title>
+</head>
+<style>
+    div.container{
+        width: 100%;
+        border: 1px solid gray;
+
+    }
+    header, footer{
+        padding: 1em;
+        color: white;
+        background-color:black;
+        clear:left;
+        text-align: center;
+    }
+    nav {
+        float:left;
+        max-width: 160px;
+        margin: 0;
+        padding: 1em;
+        }
+    nav ul{
+        list-style-type:none;
+        padding:0;
+    }
+    nav ul a{
+        text-decoration: none;
+    }
+    article {
+        
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+        
+    }
+
+    .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article2 {
+    text-align: left;
+}
+
+header2 {background: black;color:white;}
+footer2 {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav2 ul {
+    list-style-type: none;
+ padding: 0;
+}
+
+.nav ul a {
+ text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav2 {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article2 {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+
+</style>
+<body>
+<div class="container">
+    <header>
+        <h1>city Gallary</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>London</h1>
+        <p> 
+            London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.
+        </p>
+        <p>
+            Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.
+        </p>
+    </article>
+</div>
+
+
+<footer>Copyright © W3Schools.com</footer>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+
+<h1> usint flex-container</h1>
+
+<div class="flex-container">
+<header2>
+  <h1>City Gallery</h1>
+</header2>
+
+<nav class="nav2">
+<ul>
+  <li><a href="#">London</a></li>
+  <li><a href="#">Paris</a></li>
+  <li><a href="#">Tokyo</a></li>
+</ul>
+</nav>
+
+<article class="article2">
+  <h1>London</h1>
+  <p class="">London is the capital city of England. It is the most populous city in the United Kingdom,
+  with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia,
+  its history going back to its founding by the Romans, who named it Londinium.</p>
+  <p><strong>Resize this page to see that what happens!</strong></p>
+</article>
+
+<footer2>Copyright © W3Schools.com</footer2>
+</div>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Sep 2016 10:08:34 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   
+There are four different ways to create multicolumn layouts. Each way has its pros and cons:
+
+HTML tables
+CSS float property
+CSS framework
+CSS flexbox
+
+If you want to create your layout fast, you can use a framework, like W3.CSS or Bootstrap.
+*/
+
+
+
+</body>
+</html>
