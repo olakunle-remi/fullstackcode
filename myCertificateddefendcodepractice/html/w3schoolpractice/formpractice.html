@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form html practice</title>
+</head>
+<body>
+    <form action="http://www.w3schools.com/html/action_page.php">
+firstname: <br>
+<input type="text" name="firstname" value="firstname">
+<br>
+Lastname:<br>
+<input type="text" name="lastname" value="lastname">
+<br><br>
+<input type="submit" value="submit">
+    </form>
+<br>
+<br>
+<br>
+
+<hr>
+
+<!----- 
+
+Type	Description
+<input type="text">	Defines a one-line text input field
+<input type="radio">	Defines a radio button (for selecting one of many choices)
+<input type="submit">	Defines a submit button (for submitting the form)
+You will learn a lot more about input types later in this tutorial.
+
+-->
+<form>
+    male: <br>
+    <input type="radio" name="gender" value="male" checked>
+    <br>
+    Female: <br>
+    <input type="radio" name="gender" value="female">
+    <br>
+    other: <br>
+    <input type="radio" name="gender" value="other" >
+</form>
+
+<br>
+<br>
+<br>
+<hr>
+<form action="action_page.php" method="post"></form>
+<form action="action_page.php" method="get"></form>
+
+
+<br>
+<br>
+<br>
+<form action="action_page.php">
+Firtname: <br>
+<input type="text" value="mickey"><br>
+lastname:<br>
+<input type="text" name="lastname" value="mouse"><br><br>
+<input type="submit" value="Submit">
+</form>
+<br>
+<br>
+<br>
+<form action="http://www.w3schools.com/html/action_page.php">
+    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+    <br>
+    <input type="submit">
+  </form>
+<h1>dropdown list</h1>
+<form action="http://www.w3schools.com/html/action_page.php">
+<select name="cars">
+    <option value="volvo">Volvo
+    </option>
+<option value="saab">saab
+    </option>
+    <option value="fiat" selected>fiat
+    </option>
+    <option value="audi">audi
+    </option>
+
+</select>
+</form>
+<br>
+<br>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<br>
+<br>
+<form action="http://www.w3schools.com/html/action_page.php">
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+  </form>
+<br>
+<br>
+<br>
+<form action="http://www.w3schools.com/html/action_page.php">
+    Username: <input type="text" name="user">
+    <br><br>
+    Encryption: <keygen name="security">
+    <br><br>
+    <input type="submit">
+  </form>
+<br>
+<br>
+
+<form action="action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>

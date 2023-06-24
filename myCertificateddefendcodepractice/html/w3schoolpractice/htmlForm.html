@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+</head>
+<body>
+    <iframe src="" frameborder="0"></iframe>
+
+    <p>
+        First name:
+        <input type="text" placeholder="mickey">
+        Last name:
+        <input type="text" placeholder="mouse">
+        <button>Submit</button>
+
+
+
+
+<form action="">
+    first name:<br>
+    <input type="text" name="firstname" value="mickey">
+    <br>
+    Last name: <br>
+    <input type="text" name="lastname" value="mouse">
+    <br><br>
+<input type="submit" value="Submit">
+</form>
+<p>if you click the "Submit" 
+    button the form-data will be 
+    sent to a page  called 
+    "action_page.php"
+</p>
+
+<br>
+<br>
+<br>
+
+
+<form>
+    First name:<br>
+    <input type="text" name="firstname">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+  </form>
+<br>
+<br>
+<br>
+<br>
+<form>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+  </form>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <form action="action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <br>
+  <br>
+  
+<form action="http://www.w3schools.com/html/action_page.php">
+    First name:<br>
+    <input type="text" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <br>
+  <br>
+
+<form action="http://www.W3School.com/html/action_page.php">
+First name: <br>
+<input type="text" value="Mickey">
+<br>
+last name: <br>
+<input type="text" value="mouse" name="lastname">
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="reset">
+</form>
+<br>
+<br>
+<br>
+<form action="http://www.w3schools.com/html/action_page.php">
+  <input type="checkbox" name="vehicle1" value="Bike">I have a bike
+  <br>
+  <input type="checkbox" name="vehicle2" value="Car">I have a car
+  <br><br>
+  <input type="submit">
+  </form>
+</body>
+<br>
+<br>
+<br>
+<p>Numeric restrictions will apply in the input field:</p>
+
+<form action="http://www.w3schools.com/html/action_page.php">
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+
+<p><b>Note:</b> type="number" is not supported in IE9 and earlier.</p>
+<br>
+<br>
+<br>
+<form action="http://www.w3schools.com/html/action_page.php">
+  Birthday:
+  <input type="date" name="bday">
+  <input type="submit">
+</form>
+<br>
+<br>
+<br>
+<form action="http://www.w3schools.com/html/action_page.php">
+  Enter a date before 1980-01-01:<br>
+  <input type="date" name="bday" max="1979-12-31"><br><br>
+  Enter a date after 2000-01-01:<br>
+  <input type="date" name="bday" min="2000-01-02"><br><br>
+  <input type="submit">
+  </form>
+
+  <br>
+  <br>
+  <p>
+    Depending on browser support:<br>
+    A color picker can pop-up when you enter the input field.
+    </p>
+    
+    <form action="http://www.w3schools.com/html/action_page.php">
+      Select your favorite color:
+      <input type="color" name="favcolor" value="#ff0000">
+      <input type="submit">
+    </form>  
+  
+    <br>
+    <br>
+    <p>
+      Depending on browser support:<br>
+      The input type "range" can be displayed as a slider control.
+      </p>
+      
+      <form action="http://www.w3schools.com/html/action_page.php" method="get">
+        Points:
+        <input type="range" name="points" min="0" max="10">
+        <input type="submit">
+      </form>
+
+      
+      <>
+        <br>
+        <br>
+        <br>
+<p>
+Depending on browser support:<br>
+A date picker can pop-up when you enter the input field.
+</p>
+
+<form action="http://www.w3schools.com/html/action_page.php">
+  Birthday (month and year):
+  <input type="month" name="bdaymonth">
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> type="month" is not supported in Internet Explorer 10 and earlier versions.</p>
+<br>
+<br>
+<p>
+  Depending on browser support:<br>
+  A date picker can pop-up when you enter the input field.
+  </p>
+  
+  <form action="http://www.w3schools.com/html/action_page.php">
+    Select a week:
+    <input type="week" name="year_week">
+    <input type="submit">
+  </form>
+  
+  <p><strong>Note:</strong> type="week" is not supported in Internet Explorer 10 and earlier versions.</p>
+<br>
+<br>
+<p>
+  Depending on browser support:<br>
+  A time picker might pop-up when you enter the input field.
+  </p>
+  
+  <form action="http://www.w3schools.com/html/action_page.php">
+    Select a time:
+    <input type="time" name="usr_time">
+    <input type="submit">
+  </form>
+  
+<br>
+<br>
+<p>
+  Depending on browser support:<br>
+  A date picker can pop-up when you enter the input field.
+  </p>
+  
+  <form action="http://www.w3schools.com/html/action_page.php">
+    Birthday (date and time):
+    <input type="datetime-local" name="bdaytime">
+    <input type="submit" value="Send">
+  </form>
+
+  <br>
+  <br>
+  
+  <form action="http://www.w3schools.com/html/action_page.php">
+    E-mail:
+    <input type="email" name="email">
+    <input type="submit">
+  </form>
+  
+  <p>
+  <b>Note:</b>type="email" is not supported in IE9 and earlier.</p>
+
+  <br>
+  <br>
+  <br>
+  <form action="http://www.w3schools.com/html/action_page.php">
+    Search Google:
+    <input type="search" name="googlesearch">
+    <input type="submit">
+  </form>
+  <br>
+  <br>
+  <br>
+
+  
+<form action="http://www.w3schools.com/html/action_page.php">
+  Telephone:
+  <input type="tel" name="usrtel">
+  <input type="submit">
+</form>
+<br>
+<br>
+<br>
+
+<form action="http://www.w3schools.com/html/action_page.php">
+  Add your homepage:
+  <input type="url" name="homepage">
+  <input type="submit">
+</form>
+
+<p><b>Note:</b>
+The type="url" is not supported in IE9 and earlier versions.</p>
+
+
+</html>
